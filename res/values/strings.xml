@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TCC - Libras</string>
+    <string name="menu_configuracao">Menu de Configurações</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="btnTradutor">Reconhecimento de voz</string>
+    <string name="btnJogos">Jogos</string>
+    <string name="btnSobre">Sobre</string>
+    <string name="titulo">Língua Brasileira de Sinais</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnJogoMemoria">Jogo da Memória</string>
+    <string name="txtAlfabeto">Alfabeto e Números em Libras</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fundotitulo" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/titulo"
+        android:textColor="#ff0000ff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/btnAlfabeto"
+             android:layout_width="190dp"
+             android:layout_height="60dp"
+             android:text="@string/txtAlfabeto" />
+        
+        <Button
+            android:id="@+id/btnTradutor"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:text="@string/btnTradutor" />
+
+        <Button
+            android:id="@+id/btnJogos"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:text="@string/btnJogos" />
+
+        <Button
+            android:id="@+id/btnSobre"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:text="@string/btnSobre" />
+    </LinearLayout>
+
+</RelativeLayout>
